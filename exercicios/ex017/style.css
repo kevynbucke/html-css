@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+    font-family: 'Courier New', Courier, monospace;
+    /*medidas absolutas
+    Cm, mm, in, px, pt, pc
+
+    Medidas relativas
+    em, ex, rem, vw, vh, %
+
+    16px geralmente = 1 em
+
+    weight
+    */
+    
+}
+p{
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+
+}
+h1, h2{
+    /* shorthand font
+    -Font-style > Font-weigth > font-size > font-family */
+    text-decoration: underline;
+    font: italic bolder 3em 'Courier New';
+
+}
